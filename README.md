@@ -5,6 +5,7 @@
 - [ ] 110. Balanced Binary Tree
 - [x] 111. Minimum Depth of Binary TreekA
 - [x] 226. Invert Binary Tree
+- [x] 654. Maximum Binary Tree 
 
 _Weihang Lo_
 
