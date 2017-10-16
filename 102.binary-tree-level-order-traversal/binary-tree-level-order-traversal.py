@@ -30,7 +30,7 @@ def levelOrder(self, root):
                 queue.append(node.left)
             if node.right:
                 queue.append(node.right)
-        result.append(nodes)  
+        result.append(nodes)
     return result
 
 # 2. Use pre-order traversal to construct tree levels.
@@ -42,7 +42,7 @@ def levelOrder(self, root):
     :rtype: List[List[int]]
     """
     ret = []
-    def pre_order_helper(node, depth): 
+    def pre_order_helper(node, depth):
         if not node:
             return
         if len(ret) == depth:
