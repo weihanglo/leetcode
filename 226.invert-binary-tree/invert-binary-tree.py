@@ -15,28 +15,31 @@
 
 # DFS. Iterative. Pre-order traversal.
 # This algorithm beats 100% Python solutions.
-def invertTree(self, root):
-    """
-    :type root: TreeNode
-    :rtype: TreeNode
-    """
-    stack = [root]
-    while stack:
-        node = stack.pop()
-        if node:
-            node.left, node.right = node.right, node.left
-            stack.append(node.left)
-            stack.append(node.right)
-    return root
+
+class Solution(object):
+    def invertTree(self, root):
+        """
+        :type root: TreeNode
+        :rtype: TreeNode
+        """
+        stack = [root]
+        while stack:
+            node = stack.pop()
+            if node:
+                node.left, node.right = node.right, node.left
+                stack.append(node.left)
+                stack.append(node.right)
+        return root
 
 # DFS. Recursive. Pre-order traversal.
-def invertTree(self, root):
-    """
-    :type root: TreeNode
-    :rtype: TreeNode
-    """
-    if root:
-        left = self.invertTree(root.left)
-        right = self.invertTree(root.right)
-        root.left, root.right = right, left
-        return root
+class Solution(object):
+    def invertTree(self, root):
+        """
+        :type root: TreeNode
+        :rtype: TreeNode
+        """
+        if root:
+            left = self.invertTree(root.left)
+            right = self.invertTree(root.right)
+            root.left, root.right = right, left
+            return root
