@@ -11,7 +11,7 @@
 - [ ] 112. Path Sum
 - [ ] 114. Flatten Binary Tree to Linked List
 - [x] 144. Binary Tree Preorder Traversal
-- [ ] 145. Binary Tree Postorder Traversal
+- [x] 145. Binary Tree Postorder Traversal
 - [x] 226. Invert Binary Tree
 - [ ] 257. Binary Tree Paths
 - [ ] 310. Minimum Height Trees
