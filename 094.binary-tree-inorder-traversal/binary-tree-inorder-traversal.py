@@ -74,7 +74,6 @@ class Solution3(object):
                 while pre.right:
                     pre = pre.right
                 pre.right = node
-                temp = node
                 node = node.left
-                temp.left = None  # Remove left tree to avoid infinite loop.
+                pre.right.left = None  # Remove left tree to avoid infinite loop.
         return arr
