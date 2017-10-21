@@ -2,13 +2,6 @@
 # -*- coding: utf-8 -*-
 
 # Problem: https://leetcode.com/problems/binary-tree-preorder-traversal/
-#
-# Definition for a binary tree node.
-# class TreeNode(object):
-#     def __init__(self, x):
-#         self.val = x
-#         self.left = None
-#         self.right = None
 
 
 # 1. Recursive

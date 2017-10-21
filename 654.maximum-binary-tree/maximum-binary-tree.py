@@ -2,13 +2,7 @@
 # -*- coding: utf-8 -*-
 
 # Question: https://leetcode.com/problems/maximum-binary-tree
-#
-# Definition for a binary tree node.
-# class TreeNode(object):
-#     def __init__(self, x):
-#         self.val = x
-#         self.left = None
-#         self.right = None
+
 
 # Ref: https://discuss.leetcode.com/topic/98509
 class Solution(object):

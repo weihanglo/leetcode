@@ -2,16 +2,10 @@
 # -*- coding: utf-8 -*-
 
 # Problem: https://leetcode.com/problems/binary-tree-inorder-traversal/
-#
-# Definition for a binary tree node.
-# class TreeNode(object):
-#     def __init__(self, x):
-#         self.val = x
-#         self.left = None
-#         self.right = None
+
 
 # 1. Recursive
-class Solution(object):
+class Solution1(object):
     def inorderTraversal(self, root):
         """
         :type root: TreeNode
@@ -20,6 +14,7 @@ class Solution(object):
         arr = []
         self.in_order(root, arr)
         return arr
+
     def in_order(self, node, arr):
         if not node:
             return
@@ -27,8 +22,9 @@ class Solution(object):
         arr.append(node.val)
         self.in_order(node.right, arr)
 
+
 # 2. Iterative
-class Solution(object):
+class Solution2(object):
     def inorderTraversal(self, root):
         """
         :type root: TreeNode
@@ -38,13 +34,14 @@ class Solution(object):
         stack = []
         node = root
         while node or stack:
-            while node:
+            while node:  # Push all left nodes to stack.
                 stack.append(node)
                 node = node.left
             node = stack.pop()
-            arr.append(node.val)
+            arr.append(node.val)  # Append after all left nodes.
             node = node.right
         return arr
+
 
 # 3. Morris in-roder tree traversal.
 #
@@ -60,7 +57,7 @@ class Solution(object):
 #     b. Proceed to left node (current is right node now)
 #
 # Ref: https://stackoverflow.com/questions/5502916/
-class Solution(object):
+class Solution3(object):
     def inorderTraversal(self, root):
         """
         :type root: TreeNode
@@ -79,5 +76,5 @@ class Solution(object):
                 pre.right = node
                 temp = node
                 node = node.left
-                temp.left = None # Remove left tree to avoid infinite loop.
+                temp.left = None  # Remove left tree to avoid infinite loop.
         return arr

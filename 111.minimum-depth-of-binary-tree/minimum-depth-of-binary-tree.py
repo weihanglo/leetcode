@@ -2,21 +2,13 @@
 # -*- coding: utf-8 -*-
 
 # Problem: https://leetcode.com/problems/minimum-depth-of-binary-tree/
-#
-# Definition for a binary tree node.
-# class TreeNode(object):
-#     def __init__(self, x):
-#         self.val = x
-#         self.left = None
-#         self.right = None
+
 
 # To find the minimal path to nearest leaf node.  We should use breadth-first
 # (level-order) traversal solution to avoid traversing all nodes. Level-order
 # traversal means we would first search all nodes in current level before
 # enter next level.
-#
 # This solution beats 95% python solutions using DFS-like recursive method.
-
 class Solution(object):
     def minDepth(self, root):
         """
@@ -26,7 +18,7 @@ class Solution(object):
         depth = 0
         if not root:
             return 0
-        # This queue only contains child nodes of a certain parent node at a time.
+        # This queue only contains child nodes of a parent node at a time.
         # That is to say, the length of the queue can only be 0, 1, or 2.
         queue = []
         queue.append(root)

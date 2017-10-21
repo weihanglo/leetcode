@@ -2,21 +2,13 @@
 # -*- coding: utf-8 -*-
 
 # Question https://leetcode.com/problems/invert-binary-tree
-#
-# Definition for a binary tree node.
-# class TreeNode(object):
-#     def __init__(self, x):
-#         self.val = x
-#         self.left = None
-#         self.right = None
-
 # How to solve:
 # Traverse all nodes, exchange their left node and right node.
 
-# DFS. Iterative. Pre-order traversal.
-# This algorithm beats 100% Python solutions.
 
-class Solution(object):
+# 1. DFS, iterative, pre-order traversal.
+# This algorithm beats 100% Python solutions.
+class Solution1(object):
     def invertTree(self, root):
         """
         :type root: TreeNode
@@ -31,8 +23,9 @@ class Solution(object):
                 stack.append(node.right)
         return root
 
-# DFS. Recursive. Pre-order traversal.
-class Solution(object):
+
+# 2. DFS, recursive, pre-order traversal.
+class Solution2(object):
     def invertTree(self, root):
         """
         :type root: TreeNode

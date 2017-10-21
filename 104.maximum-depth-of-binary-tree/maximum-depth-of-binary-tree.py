@@ -2,16 +2,10 @@
 # -*- coding: utf-8 -*-
 
 # Problem: https://leetcode.com/problems/maximum-depth-of-binary-tree
-#
-# Definition for a binary tree node.
-# class TreeNode(object):
-#     def __init__(self, x):
-#         self.val = x
-#         self.left = None
-#         self.right = None
 
-# Breadth-first-search, iterative, level-order solution.
-class Solution(object):
+
+# 1. Breadth-first-search, iterative, level-order solution.
+class Solution1(object):
     def maxDepth(self, root):
         """
         :type root: TreeNode
@@ -25,15 +19,16 @@ class Solution(object):
         while queue:
             depth += 1
             for _ in xrange(len(queue)):
-                node = queue.pop(0) # Dequeue first element.
+                node = queue.pop(0)  # Dequeue first element.
                 if node.left:
                     queue.append(node.left)
                 if node.right:
                     queue.append(node.right)
         return depth
 
-# Depth-first-search, iterative solution.
-class Solution(object):
+
+# 2. Depth-first-search, iterative solution.
+class Solution2(object):
     def maxDepth(self, root):
         """
         :type root: TreeNode
@@ -60,8 +55,9 @@ class Solution(object):
                 value.append(temp + 1)
         return depth
 
-# Depth-first-search, recursive solution.
-class Solution(object):
+
+# 3. Depth-first-search, recursive solution.
+class Solution3(object):
     def maxDepth(self, root):
         """
         :type root: TreeNode
