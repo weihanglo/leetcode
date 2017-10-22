@@ -9,7 +9,7 @@
 - [x] 110. Balanced Binary Tree
 - [x] 111. Minimum Depth of Binary TreekA
 - [x] 112. Path Sum
-- [ ] 114. Flatten Binary Tree to Linked List
+- [x] 114. Flatten Binary Tree to Linked List
 - [x] 144. Binary Tree Preorder Traversal
 - [x] 145. Binary Tree Postorder Traversal
 - [x] 226. Invert Binary Tree
