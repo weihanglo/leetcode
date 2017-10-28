@@ -13,11 +13,11 @@
 - [x] 144. Binary Tree Preorder Traversal
 - [x] 145. Binary Tree Postorder Traversal
 - [x] 226. Invert Binary Tree
-- [ ] 257. Binary Tree Paths
+- [x] 257. Binary Tree Paths
 - [ ] 310. Minimum Height Trees
 - [ ] 637. Average of Levels in Binary Tree
 - [x] 654. Maximum Binary Tree
 - [ ] 662. Maximum Width of Binary Tree
 - [ ] 687. Longest Univalue Path
 
-🙃 _Weihang Lo_
+🙃 _Weihang Lo_ 🙃
