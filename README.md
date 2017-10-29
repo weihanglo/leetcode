@@ -15,7 +15,7 @@
 - [x] 226. Invert Binary Tree
 - [x] 257. Binary Tree Paths
 - [ ] 310. Minimum Height Trees
-- [ ] 637. Average of Levels in Binary Tree
+- [x] 637. Average of Levels in Binary Tree
 - [x] 654. Maximum Binary Tree
 - [ ] 662. Maximum Width of Binary Tree
 - [ ] 687. Longest Univalue Path
