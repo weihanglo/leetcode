@@ -20,4 +20,18 @@
 - [ ] 662. Maximum Width of Binary Tree
 - [ ] 687. Longest Univalue Path
 
+## Array
+
+- [x] 001. Tow Sum
+- [x] 027. Remove Duplicates from Sorted Array
+- [x] 036. Valid Sudoku
+- [x] 048. Rotate Image
+- [x] 066. Plus One
+- [x] 122. Best Time to Buy and Sell Stock II
+- [x] 136. Single Number
+- [x] 189. Rotate Array
+- [x] 217. Contains Duplicate
+- [x] 283. Move Zeroes
+- [ ] 350. Intersection of two arrays II
+
 🙃 _Weihang Lo_ 🙃
