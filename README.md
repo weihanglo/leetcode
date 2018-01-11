@@ -34,4 +34,8 @@
 - [x] 283. Move Zeroes
 - [ ] 350. Intersection of two arrays II
 
+## Math
+
+- [x] 007. Reverse Integer
+
 🙃 _Weihang Lo_ 🙃
