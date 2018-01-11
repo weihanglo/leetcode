@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-## Binary Tree
+## Tree
 
 - [x] 094. Binary Tree Inorder Traversal
 - [x] 102. Binary Tree Level Order Traversal
@@ -54,5 +54,13 @@
 - [x] 206. Reverse Linked List
 - [ ] 234. Palindrome Linked List
 - [x] 237. Delete Node in a Linked List
+
+## Dynamic Programming
+
+- [x] 070. Climbing stairs
+
+## Math
+
+- [x] 263. Ugly Number
 
 🙃 _Weihang Lo_ 🙃
