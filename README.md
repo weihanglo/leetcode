@@ -34,8 +34,16 @@
 - [x] 283. Move Zeroes
 - [ ] 350. Intersection of two arrays II
 
-## Math
+## String
 
 - [x] 007. Reverse Integer
+- [x] 008. String to Integer (atoi)
+- [x] 014. Longest Common Prefix
+- [ ] 028. Implement strStr()
+- [ ] 038. Count and Say 
+- [x] 125. Valid Palindrome
+- [x] 242. Valid Anagram
+- [x] 334. Reverse String
+- [x] 387. First Unique Character in a String
 
 🙃 _Weihang Lo_ 🙃
