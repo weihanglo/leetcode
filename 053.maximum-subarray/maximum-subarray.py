@@ -14,10 +14,15 @@
 # If you have figured out the O(n) solution, try coding another solution using 
 # the divide and conquer approach, which is more subtle.
 
+# DP O(n)
 class Solution:
     def maxSubArray(self, nums):
         """
         :type nums: List[int]
         :rtype: int
         """
-        
+        cur_sum = max_sum = num[0]
+        for num in nums:
+            cur_sum = max(num, cur_sum + num)
+            max_sum max(max_sum, cur_sum)
+        return max_sum

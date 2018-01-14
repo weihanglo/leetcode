@@ -57,7 +57,7 @@
 
 ## Dynamic Programming
 
-- [ ] 053. Maximum Subarray
+- [x] 053. Maximum Subarray
 - [x] 070. Climbing stairs
 - [x] 121. Best Time to Buy and Sell Stock
 - [ ] 198. House Robber
