@@ -19,5 +19,5 @@
  * @param {string} needle
  * @return {number}
  */
-var strStr = function(haystack, needle) {
-};
+var strStr = (haystack, needle) => haystack.search(needle)
+var strStr = (haystack, needle) => haystack.indexOf(needle)
