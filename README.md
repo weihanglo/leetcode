@@ -32,7 +32,7 @@
 - [x] 189. Rotate Array
 - [x] 217. Contains Duplicate
 - [x] 283. Move Zeroes
-- [ ] 350. Intersection of two arrays II
+- [x] 350. Intersection of two arrays II
 
 ## String
 
