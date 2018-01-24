@@ -52,7 +52,7 @@
 - [x] 021. Merge Two Sorted Lists
 - [ ] 141. Linked List Cycle
 - [x] 206. Reverse Linked List
-- [ ] 234. Palindrome Linked List
+- [x] 234. Palindrome Linked List
 - [x] 237. Delete Node in a Linked List
 
 ## Dynamic Programming
