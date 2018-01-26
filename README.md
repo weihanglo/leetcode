@@ -3,9 +3,12 @@
 ## Tree
 
 - [x] 094. Binary Tree Inorder Traversal
+- [ ] 098. Validate Binary Search Tree
+- [ ] 101.symmetric Tree
 - [x] 102. Binary Tree Level Order Traversal
 - [x] 104. Maximum Depth of Binary Tree
 - [x] 107. Binary Tree Level Order Traversal II
+- [ ] 108. Convert Sorted Array to Binary Search Tree
 - [x] 110. Balanced Binary Tree
 - [x] 111. Minimum Depth of Binary TreekA
 - [x] 112. Path Sum
@@ -67,9 +70,13 @@
 - [ ] 088. Merge Sorted Array
 - [ ] 278. First Bad Version
 
-
 ## Math
 
+- [ ] 012. Integer to Roman
+- [ ] 013. Roman to Integer
+- [ ] 204. Count Primes
 - [x] 263. Ugly Number
+- [ ] 326. Power of Three
+- [ ] 412. Fizz Buzz
 
 🙃 _Weihang Lo_ 🙃
