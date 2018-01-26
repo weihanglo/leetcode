@@ -39,7 +39,7 @@
 - [x] 007. Reverse Integer
 - [x] 008. String to Integer (atoi)
 - [x] 014. Longest Common Prefix
-- [x] 028. Implement strStr()
+- [x] 028. Implement `strStr()`
 - [x] 038. Count and Say 
 - [x] 125. Valid Palindrome
 - [x] 242. Valid Anagram
@@ -50,7 +50,7 @@
 
 - [x] 019. Remove nth Node from End of List
 - [x] 021. Merge Two Sorted Lists
-- [ ] 141. Linked List Cycle
+- [x] 141. Linked List Cycle
 - [x] 206. Reverse Linked List
 - [x] 234. Palindrome Linked List
 - [x] 237. Delete Node in a Linked List
