@@ -3,8 +3,8 @@
 ## Tree
 
 - [x] 094. Binary Tree Inorder Traversal
-- [ ] 098. Validate Binary Search Tree
-- [ ] 101.symmetric Tree
+- [x] 098. Validate Binary Search Tree
+- [ ] 101. Symmetric Tree
 - [x] 102. Binary Tree Level Order Traversal
 - [x] 104. Maximum Depth of Binary Tree
 - [x] 107. Binary Tree Level Order Traversal II
