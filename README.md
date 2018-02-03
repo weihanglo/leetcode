@@ -10,7 +10,7 @@
 - [x] 107. Binary Tree Level Order Traversal II
 - [ ] 108. Convert Sorted Array to Binary Search Tree
 - [x] 110. Balanced Binary Tree
-- [x] 111. Minimum Depth of Binary TreekA
+- [x] 111. Minimum Depth of Binary Tree
 - [x] 112. Path Sum
 - [x] 114. Flatten Binary Tree to Linked List
 - [x] 144. Binary Tree Preorder Traversal
@@ -67,8 +67,8 @@
 
 ## Sorting and Searching
 
-- [ ] 088. Merge Sorted Array
-- [ ] 278. First Bad Version
+- [x] 088. Merge Sorted Array
+- [x] 278. First Bad Version
 
 ## Math
 
@@ -79,4 +79,4 @@
 - [ ] 326. Power of Three
 - [ ] 412. Fizz Buzz
 
-🙃 _Weihang Lo_ 🙃
+_Weihang Lo_
