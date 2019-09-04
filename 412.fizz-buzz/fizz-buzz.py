@@ -30,9 +30,8 @@
 #     "FizzBuzz"
 # ]
 
-class Solution:
-    def fizzBuzz(self, n):
-        """
-        :type n: int
-        :rtype: List[str]
-        """
+impl Solution {
+    pub fn fizz_buzz(n: i32) -> Vec<String> {
+        
+    }
+}
