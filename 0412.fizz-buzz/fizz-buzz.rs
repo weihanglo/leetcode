@@ -39,3 +39,18 @@ impl Solution {
         }).collect()
     }
 }
+
+impl Solution2 {
+    pub fn fizz_buzz(n: i32) -> Vec<String> {
+        (1..=n).map(|x| {
+            let by3 = x % 3 == 0;
+            let by5 = x % 5 == 0;
+            match (by3, by5) {
+                (true, true) => "FizzBuzz".into(),
+                (true, false) => "Fizz".into(),
+                (false, true) => "Buzz".into(),
+                (false, false) => x.to_string(),
+            }
+        }).collect()
+    }
+}
