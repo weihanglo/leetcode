@@ -72,7 +72,7 @@
 
 ## Math
 
-- [ ] 0012. Integer to Roman
+- [x] 0012. Integer to Roman
 - [x] 0013. Roman to Integer
 - [ ] 0204. Count Primes
 - [x] 0263. Ugly Number
