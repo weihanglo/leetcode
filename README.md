@@ -39,6 +39,7 @@
 
 ## String
 
+- [x] 0003. Longest Substring Without Repeating Characters
 - [x] 0007. Reverse Integer
 - [x] 0008. String to Integer (atoi)
 - [x] 0014. Longest Common Prefix
