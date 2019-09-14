@@ -46,6 +46,7 @@
 - [x] 0028. Implement `strStr()`
 - [x] 0038. Count and Say 
 - [x] 0125. Valid Palindrome
+- [x] 0205. Isomorphic Strings
 - [x] 0242. Valid Anagram
 - [x] 0334. Reverse String
 - [x] 0387. First Unique Character in a String
