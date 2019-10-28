@@ -53,6 +53,7 @@
 
 ## Linked List
 
+- [x] 0002. Add Two Numbers
 - [x] 0019. Remove nth Node from End of List
 - [x] 0021. Merge Two Sorted Lists
 - [x] 0141. Linked List Cycle
